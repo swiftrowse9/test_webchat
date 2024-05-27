@@ -4,8 +4,8 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "start2": "node src/server.js --inspect",
-    "start": "nodemon src/server.js",
+    "start": "node src/server.js --inspect",
+    "start2": "nodemon src/server.js",
     "test": "jest"
   },
   "author": "clearlove7",
