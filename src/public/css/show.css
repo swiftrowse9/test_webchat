@@ -1,0 +1,73 @@
+.show-container{
+
+    padding-top: 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.col-lg-3 a{
+    position: relative;
+    animation: posleft 2s;
+    /* animation: fadeIn 2s ease-in; */
+    width: 150px;
+}
+
+.mt-4 .row{
+
+    margin-top: -40px;
+}
+.col-lg-9 img{
+
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px 0px 30px;
+}
+
+.col-lg-9 h1{
+
+    position: relative;
+    animation: posleft 2s;
+    padding: 0px 0px 10px;
+}
+
+.col-lg-9 p{
+    position: relative;
+    animation: posright 2s;
+    margin-bottom: 0px;
+    padding: 0px 0px 10px;
+}
+.col-lg-9 a{
+
+    position: relative;
+    animation: posright 2s;
+    width: 150px;
+}
+
+.create-container{
+   
+    padding-top: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

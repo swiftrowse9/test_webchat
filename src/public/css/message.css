@@ -1,0 +1,41 @@
+.message-container{
+
+    max-width: 1000px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.message-container h2{
+
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+.mb-3{
+
+    max-width: 335px;
+}
+
+.message-container input{
+
+    padding: 0;
+    width: 335px;
+    max-width: 335px;
+    height: 100px;
+    text-align: center;
+    
+}
+
+.message-container form{
+
+    padding-left: 70px;
+    width: 100%;
+}
+
+.btn-send-message{
+    text-align: center;
+}
+.message-container button{
+
+    width: 150px;
+}

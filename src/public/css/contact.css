@@ -1,0 +1,23 @@
+.contact-container{
+
+    margin: 0px 50px auto;
+    max-width: 400px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.form-group{
+
+    padding: 0px;
+}
+
+.form-group button{
+
+    background-color: rgb(65 61 83);
+    color: white;
+}
+
+.form-control{
+
+    margin-bottom: 20px;
+}

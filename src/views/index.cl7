@@ -1,0 +1,38 @@
+<div class="title-home">
+    <div style="text-align: center;">
+        <h1 style="text-align: center;">
+           XIN CHÀO, WEB-CHAT CỦA TÔI ĐÃ BUILD LẠI 1 BẢN KHÁC BẰNG REACTJS 
+        </h1>
+        <b style="text-align: center;">Vui lòng bấm link này để trải nghiệm trang web với công nghệ mới nhất</b>
+        <br>
+        <span>Link: <a href="https://webchat-react-app1.vercel.app/">https://webchat-react-app1.vercel.app/</a></span>
+    </div>
+</div>
+<div class="join-container">
+    <header class="join-header">
+        <h1><i class="fas fa-comments"></i> Webchat</h1>
+    </header>
+    <main class="join-main">
+        <form name="join_page_chat" action="/chat" method="GET" onsubmit="return checkValidInput(event)">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username"placeholder="Enter username..." />
+            </div>
+            <div class="form-control">
+                <label for="room">Room</label>
+                <select name="room" id="room">
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="PHP">PHP</option>
+                    <option value="C-Sharp">C#</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="Java">Java</option>
+                </select>
+            </div>
+            <div class="join-btn">
+                <a class="btn btn-dark" href="https://webchat-react-app1.vercel.app/">Join Chat</a>
+            </div>
+        </form>
+    </main>
+</div>
+<script src="js/validationHome.js"></script>

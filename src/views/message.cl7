@@ -1,0 +1,37 @@
+<div class="message-container">
+    <main>
+        <form action="./message" method="POST">
+             <h2>
+                Message page
+             </h2>
+            <div class="mb-3">
+                <label for="msg" class="form-label">Send Message</label>
+                <input type="text" class="form-control" id="msg" name="msg" aria-describedby="emailHelp" placeholder="gửi tin nhắn cho tôi">
+                <div class="btn-send-message"> 
+                    <button type="submit" class="btn btn-primary">SEND</button>
+                </div>
+            </div>
+           
+        </form>
+    </main>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

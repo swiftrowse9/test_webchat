@@ -1,0 +1,285 @@
+*{
+
+	padding: 0;
+	margin: 0;
+}
+body{
+
+	transition: all 1s ease;
+}
+
+.app{
+
+	height: 100%;
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.logo{
+
+	float: left;
+	width: 12%;
+	height: 80px;
+	background-color: #383838;
+	
+}
+
+.logo img{
+
+	height: 60px;
+    width: 60px;
+    margin: 10px 40px;
+    border-radius: 100%;
+}
+
+
+
+.heading{
+
+	height: 80px;
+	float: left;
+	width: 88%;
+	background-color: #25272c;
+}
+
+.heading  h1 a{
+
+	text-align: center;
+    padding: 20px 70px;
+    font-size: 30px;
+    color: white;
+}
+
+.heading  h1 a:hover{
+
+	text-decoration: none;
+}
+
+#nav_menu{
+
+	float: left;
+    width: 100%;
+    border-bottom: 2px solid silver;
+    background-color: rgb(71 71 71);
+}
+
+#nav_menu ul{
+
+	margin: 0px;
+}
+
+#nav_menu ul li{
+    
+    list-style: none;
+    float: left;
+    padding: 20px 20px;
+    position: relative;
+	z-index: 10;
+}
+#nav_menu ul li ul{
+    display: none;
+    position: absolute;
+    text-align: center;
+    border: none;
+    width: 200px;
+	height: 230px;
+    margin-top: 20px;
+    margin-left: -70px;
+    background-color: rgb(53, 53, 53);
+}
+#nav_menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+#nav_menu ul li a:hover{
+    color:coral;
+}
+#nav_menu > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#nav_menu ul li:hover > ul{
+
+    
+    display: block;
+}
+#nav_menu ul li ul li{
+    float: none;
+	padding: 25px 0px 20px 20px;
+	height: 50px;
+}
+
+#mobile_menu{
+
+
+    display: none;
+}
+
+.block-nav{
+
+	float: left;
+	padding-left: 28px;
+}
+
+.block-nav-right{
+
+	float: right;
+	padding-right: 20px;
+}
+
+.content{
+
+	clear: both;
+	width: 100%;
+	padding-bottom: 200px;
+}
+
+.title-home h1{
+
+	padding: 50px 50px 0px;
+}
+
+.join-container{
+	max-width: 500px;
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.join-header{
+
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+	border: 1px solid #25272c;
+	text-align: center;
+	background-color: #25272c;
+	color: white;
+}
+.join-main{
+
+	padding: 20px;
+	border: 1px solid #25272c;
+}
+
+.join-btn{
+
+	text-align: center;
+}
+
+.form-control input{
+
+	width: 100%;
+}
+
+.form-control select{
+	
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+}
+
+hr{
+
+	clear: both;
+
+}
+
+footer{
+	text-align: center;
+	height: 150px;
+
+}
+
+.footer-top{
+	padding-top: 30px;
+}
+
+.footer-top address{
+
+	line-height: 1.5;
+	margin-bottom: 0rem;
+}
+
+
+@media screen and (max-width: 770px){
+
+	.slicknav_menu {
+		clear: both;
+		background: #4c4c4c;
+		padding: 5px 25px;
+	}
+	.slicknav_btn{
+
+		margin: 6px 0px 6px;
+	}
+	nav ul{
+
+		border: none;
+	}
+    
+    #mobile_menu{
+
+        display: block;
+        width: 100%;
+    }
+
+
+    #nav_menu{
+
+        display: none;
+    }
+	.block-nav{
+
+		float: none;
+		padding-left: 0px;
+	}
+	
+	.block-nav-right{
+	
+		float: none;
+		padding-right: 0px;
+	}
+
+
+	.chat-header h1 {
+		color: #fff;
+		font-size: 20px;
+	}
+    
+	.chat-header a {
+		background-color: #2d2f37;
+		border: 2px solid white;
+		color: white;
+		font-size: 10px;
+	}
+
+	.message h2{
+
+		font-size: 15px;
+	}
+
+	.chat-form-container form {
+		width: 250px;
+    	margin: 0 auto;
+	}
+
+	.chat-form-container input[type='text'] {
+
+		width: 100%;
+	}
+    
+}
+
+
+@media (max-width: 700px) {
+	.chat-main {
+		display: block;
+	}
+
+	.chat-sidebar {
+		display: block;
+	}
+}
+

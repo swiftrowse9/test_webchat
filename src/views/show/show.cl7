@@ -1,0 +1,65 @@
+<div class="show-container">
+     <div class="mt-4">
+        <div class="row">
+           
+            <div class="col-lg-9">
+                <h1>{{data.name}}</h1>
+                <img src="{{data.image}}" alt="image">
+                <h2>Tên công ty: {{data.ten_cong_ty}}</h2>
+                <p>
+                    <h4>Lĩnh vực:</h4>{{data.linh_vuc}}
+                    <br>
+                    <h4>Năm thành lập: </h4>{{data.nam_thanh_lap}}
+                    <br>
+                    <h4>Số nhân viên: </h4>{{data.so_nhan_vien}}
+                    <br>
+                    <h4>Địa chỉ: </h4>{{data.dia_chi}}
+                    <br>
+                    <h4>Website: </h4>{{data.website}}
+                     <br>
+                    <h4>Số điện thoại: </h4>{{data.sdt}}
+                    <br>
+                    <h4>Email: </h4>{{data.email}}
+                    <br>
+                    <h4>Vị trí tuyển dụng: </h4>{{data.vi_tri_tuyendung}}
+                    <br>
+                    <h4>Lương: </h4>{{data.luong}}
+                    <br>
+                </p>
+                <a href="./company" class="btn btn-primary">
+                    Leave
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

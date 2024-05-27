@@ -1,0 +1,85 @@
+
+<div class="shop-container">
+    <main>
+        <h1> 
+           Thông tin tuyển dụng của các công ty
+        </h1>
+        <br>
+         <table >
+            <thead >
+            <tr>
+                <th>Tên công ty</th>
+                <th>Logo công ty</th>
+                <th>Lĩnh vực</th>
+                <th>Địa chỉ</th>
+                <th>Số điện thoại</th>
+                <th>Email</th>
+                <th>Vị trí tuyển dụng</th>
+                <th>Lương</th>
+                <th>Xem chi tiết</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#each data}}
+            <tr>
+                <td>
+                    <a href="./{{this.slug}}"> {{this.ten_cong_ty}}</a>
+                </td>
+                <td><img width="100px" height="100%" src="{{this.image}}" alt="image"></td>
+                <td>{{this.linh_vuc}}</td>
+                <td>{{this.dia_chi}}</td>
+                <td>{{this.sdt}}</td>
+                <td>{{this.email}}</td>
+                <td>{{this.vi_tri_tuyendung}}</td>
+                <td>{{this.luong}}</td>
+                <td><a href="./{{this.slug}}">XEM</a></td>
+            </tr>
+            {{/each}}
+            </tbody>
+        </table>
+
+        
+    </main>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
