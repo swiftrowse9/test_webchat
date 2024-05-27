@@ -45,7 +45,7 @@ let configViewEngine = (app, bodyParser, handlebars, SESSION_SECRET, SESSION_ALG
     }));
 
     app.use(cors({
-        origin: 'http://localhost:3000',//process.env.REACT_APP_HOSTNAME 
+        origin: process.env.REACT_APP_HOSTNAME,//process.env.REACT_APP_HOSTNAME  'http://localhost:3000'
         methods: 'GET,POST,PUT,DELETE,OPTIONS',
         allowedHeaders: ['Content-Type', 'Authorization', 'X-CSRF-Token'],
         credentials: true,
